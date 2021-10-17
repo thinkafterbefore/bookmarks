@@ -34,7 +34,7 @@ jobs:
         browsers: ['firefox']
 
 
-    name: floccus ${{ matrix.test-name}} ${{matrix-runs-on}}
+    name: floccus ${{ matrix.test-name}} ${{matrix.runs-on}}
     runs-on: ${{matrix.runs-on}}
     services:
       hub:
