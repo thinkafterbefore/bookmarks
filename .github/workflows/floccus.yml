@@ -28,7 +28,7 @@ jobs:
         npm-versions: [7.x]
         server-versions: ['20']
         selenium-version: ['3']
-        runs-on: [ubuntu-latest]
+        runs-on: [ubuntu-latest, buildjet-2vcpu-ubuntu-2004, buildjet-4vcpu-ubuntu-2004, buildjet-8vcpu-ubuntu-2004]
         floccus-adapter: ['nextcloud-bookmarks']
         test-name: ['test']
         browsers: ['firefox']
